@@ -1,0 +1,94 @@
+/*global components*/
+body{
+background: white;
+}
+
+h1{
+    font-family: 'Playfair Display', serif;
+}
+.navbar{
+    background: black;
+    color: #ffffff;
+    border: none;
+    margin-bottom: 0px;
+}
+
+.navbar-brand{
+    color: #ffffff !important;
+    font-family: 'Oswald', sans-serif;
+/*    font-family: 'Merriweather', serif;*/
+/*    font-family: 'Playfair Display', serif;*/
+
+
+}
+
+.navbar-default .navbar-nav>li>a{
+    color: #ffffff;
+    font-family: 'Merriweather', serif;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+    color: limegreen;
+    font-family: 'Merriweather', serif;
+}
+
+.navbar .navbar-nav{
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+.navbar .navbar-collapse{
+text-align: center;
+}
+
+/* home page css foooter section */
+
+#footer .footer-top .footer-links ul a:hover{
+    color: #f4511e;
+}
+
+#footer .footer-top .footer-contact{
+    margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-conact p{
+    line-height: 26px;
+}
+
+#footer .footer-top .footer-newsletter{
+    margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-newletter input[type="email"]
+{
+    border: 0px;
+    padding: 6px 8px;
+    width: 65%
+}
+
+#footer .footer-top .footer-newsletter input[type="submit"]
+{
+    background: #f4511e;
+    border: 0;
+    width: 35%;
+    padding: 6px 0;
+    text-align: center;
+    color: #fff;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#footer .footer-top .footer-newsletter input[type="submit"]:hover{
+    background: #13a456;
+}
+
+#footer .copyright{
+    text-align: center;
+    padding-top: 30px;
+}
+#footer .credits{
+    text-align: center;
+    font-size: 13px;
+    color: #ddd;
+}

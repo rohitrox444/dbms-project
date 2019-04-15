@@ -1,0 +1,73 @@
+/*global components*/
+body{
+background: white;
+}
+
+h1{
+    font-family: 'Playfair Display', serif;
+}
+.navbar{
+    background: black;
+    color: #ffffff;
+    border: none;
+    margin-bottom: 0px;
+}
+
+.navbar-brand{
+    color: #ffffff !important;
+    font-family: 'Oswald', sans-serif;
+/*    font-family: 'Merriweather', serif;*/
+/*    font-family: 'Playfair Display', serif;*/
+
+
+}
+
+.navbar-default .navbar-nav>li>a{
+    color: #ffffff;
+    font-family: 'Merriweather', serif;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+    color: limegreen;
+    font-family: 'Merriweather', serif;
+}
+
+.navbar .navbar-nav{
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+.navbar .navbar-collapse{
+text-align: center;
+}
+
+form{
+background: #002e6e;
+padding: 40px;
+-webkit-box-shadow: 9px 15px 39px -9px rgba(0,0,0,0.75);
+-moz-box-shadow: 9px 15px 39px -9px rgba(0,0,0,0.75);
+box-shadow: 9px 15px 39px -9px rgba(0,0,0,0.75);
+color: white;
+}
+
+.nav-tabs{
+margin-left: auto;
+    border-bottom: 1px solid #ddd;
+    margin-right: auto;
+    display: table;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.nav-tabs>li>a{
+    border-radius: 0px;
+    background: #002e6e;
+    color: white;
+}
+
+.nav-tabs>li>a:hover{
+    border-radius: 0px;
+    background: #002e6e;
+    color: white;
+}
